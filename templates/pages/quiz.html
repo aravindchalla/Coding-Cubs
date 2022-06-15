@@ -1,0 +1,31 @@
+{% extends "pages/index.html" %}
+<h1>{% block title %}Quiz{% endblock %}</h1>
+{% block nav-quiz %}
+<div style="padding-left: 30px;" class="card">
+       
+        {% for result in quiz %}
+        <table class="table table-striped table-hover"> 
+            <tr>
+                <th>{{ result.id }} {{ result.Question }}</th>
+            </tr>
+            <tr>
+                <td><input type="radio" class="form-check-input" class="rb" id="Option1" name="{{result.id}}" value="{{result.Option1}}">{{result.Option1}}</td>
+            </tr>
+            <tr>
+                <td><input type="radio" class="rb" id="Option2" name="{{result.id}}" value="{{result.Option2}}">{{result.Option2}}</td>
+            </tr>
+            <tr>
+                <td><input type="radio" class="rb" id="Option3" name="{{result.id}}" value="{{result.Option3}}">{{result.Option3}}</td>
+            </tr>
+            <tr>
+                <td><input type="radio" class="rb" id="Option4" name="{{result.id}}" value="{{result.Option4}}">{{result.Option4}}</td>
+            </tr>
+            <tr>
+                <td><label id="corans" class="rb" style="display: none; color: green; "><b>Correct Answer: {{result.Corrans}}</b></label></td>
+            </tr>
+        </table>
+        {% endfor %}
+    <hr/>
+    <input type="submit" class="btn btn-primary"value="Click for results" id="but1" onclick="getAnswers();"/>
+</div>
+{% endblock %}

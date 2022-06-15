@@ -1,0 +1,252 @@
+
+ .header .rectangle {
+  position: absolute;
+  transform-origin: center;
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 1);
+    border-bottom-color: rgba(151, 151, 151, 1);
+    border-bottom-width: 1.00px;
+    border-left-color: rgba(151, 151, 151, 1);
+    border-left-width: 1.00px;
+    border-right-color: rgba(151, 151, 151, 1);
+    border-right-width: 1.00px;
+    border-top-color: rgba(151, 151, 151, 1);
+    border-top-width: 1.00px;
+    -webkit-filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.5019607843137255));
+  filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.5019607843137255));
+    width: auto;
+  height: auto;
+  left: 0.00px;
+  top: 0.00px;
+  right: 0.00px;
+  bottom: 0.00px;
+  z-index: 99999;
+  }
+  .header .loginBtn {
+  display: block;
+  position: absolute;
+  transform-origin: center;
+  opacity: 1;
+  background-color: transparent;
+  width: 120px;
+  height: 40px;
+  left: 700px;
+  bottom: 0px;
+  top: 10px;
+  }
+   .header .loginBtn .path1656 {
+  position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(-2.00deg);
+  -webkit-transform: rotate(-2.00deg);
+  transform: rotate(-2.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    fill: rgba(255, 137, 35, 1);
+    -webkit-filter: blur(11px);
+  filter: blur(11px);
+  width: auto;
+  height: auto;
+  left: 19.73px;
+  top: 8.04px;
+  right: 7.55px;
+  bottom: 2.36px;
+  }
+   .header .loginBtn .rectangle120 {
+  position: absolute;
+  transform-origin: center;
+    opacity: 1;
+    background-color: rgba(255, 137, 35, 1);
+    border-bottom-color: rgba(236, 227, 227, 1);
+    border-bottom-width: 1.00px;
+    border-left-color: rgba(236, 227, 227, 1);
+    border-left-width: 1.00px;
+    border-right-color: rgba(236, 227, 227, 1);
+    border-right-width: 1.00px;
+    border-top-color: rgba(236, 227, 227, 1);
+    border-top-width: 1.00px;
+    border-top-left-radius: 36.00px;
+    border-top-right-radius: 36.00px;
+    border-bottom-left-radius: 36.00px;
+    border-bottom-right-radius: 36.00px;
+    left: 20px;
+  top: 5.00px;
+  width: 120px;
+  height: 40px;
+  top: 25px;
+  box-shadow: 0 7px #999;
+  }
+  .rectangle120:hover {background-color:rgba(255, 137, 35, 0.7) }
+  
+  .rectangle120:active {
+    background-color:rgba(255, 137, 35, 0.7);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    -webkit-transform: translateY(4px);
+    -moz-transform: translateY(4px);
+    -ms-transform: translateY(4px);
+    -o-transform: translateY(4px);
+  }
+   .header .loginBtn .logIn {
+  position: absolute;
+  transform-origin: center;
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: left;
+    line-height: 80.00px;
+    color: rgba(255, 255, 255, 1);
+    -webkit-text-stroke: unset;
+    font-size: 20.00px;
+    font-weight: 700;
+  font-style: normal;
+    font-family: Lato, Arial;
+    white-space: pre;
+    width: 65.00px;
+  height: 24.00px;
+  left: 25px;
+  bottom: 0px;
+  top: -20px;
+  }
+  
+  
+  nav {
+    width: 50%;
+    position: absolute;
+    left: 25em;
+    top: 0px;
+    bottom: 0px !important;
+    z-index: 99999;
+  }
+  nav ul {
+    width: 100%;
+    list-style: none;
+  }
+  nav ul > li {
+    position: relative;
+    float: left;
+    padding: 0.5em;
+    margin: 1.25em 0.5em;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    border-radius: 0.75em;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-property: background, color, padding, border-radius;
+  }
+  
+  nav ul > li:hover {
+    background-color: rgba(251, 93, 0);
+  }
+  nav ul > li:hover > a {
+    border: none;
+    text-decoration: none;
+    color: #fff;
+  }
+  nav ul > li > a {
+    font:1em "Cantora One", sans-serif;
+    border: none;
+    text-decoration: none;
+    color: #333;
+    padding: 0.5em;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .checkbtn{
+    font-size: 30px;
+    color: black;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+    position: relative;
+    top: 20px;
+    right: 500px;
+  }
+  #check{
+    display: none;
+  }
+  
+  
+  .active > a{
+    fill: rgba(251, 93, 0) !important;
+    text-decoration: none;
+  }
+  
+  
+  
+  
+  /* Dark Mode */
+  
+  .switch-container {
+   padding-top: 1.5em;
+   padding-right: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    left: 50px;
+    top: -20px;
+    transform: scale(0.6);
+  }
+  .switch-container .mode-text {
+    margin-right: 0.75rem;
+  }
+  .switch-container .mode-text:nth-of-type(1) {
+    color: #091246;
+    display: block;
+  }
+  .switch-container .mode-text:nth-of-type(2) {
+    display: none;
+  }
+  .switch-container .mode-text.mode-change:nth-of-type(1) {
+    display: none;
+  }
+  .switch-container .mode-text.mode-change:nth-of-type(2) {
+    color: #fff;
+    display: block;
+  }
+  .switch-container input[type=checkbox] {
+    position: relative;
+    width: 70px;
+    height: 35px;
+    appearance: none;
+    background-color: #afcaf8;
+    border-radius: 20px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: 0.5s ease all;
+    outline: none;
+    cursor: pointer;
+  }
+  .switch-container input[type=checkbox]::before {
+    content: "";
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    transition: 0.5s ease all;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transform: scale(0.9);
+  }
+  .switch-container input:checked[type=checkbox] {
+    background-color: #2556a5;
+  }
+  .switch-container input:checked[type=checkbox]::before {
+    left: 35px;
+  }
+  
+  .logout-container{
+    position: absolute;
+    right: 600px;
+    top: -15px;
+  }

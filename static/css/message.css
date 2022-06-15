@@ -1,0 +1,63 @@
+.message {
+    position: fixed;
+    top: 40px;
+    left: 50%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    font-weight: 800;
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.05);
+    list-style: none;
+    background-color:  #28a745;
+  }
+  .animate {
+    opacity: 0;
+    transition: all 1s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  
+  .animate.active {
+    opacity: 1;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  .slide-in-down {
+    transform: translateY(-100%) translateX(-50%);
+  }
+
+  
+/* message */
+.msg {
+  position: fixed;
+  left: 1250px;
+  top: 100px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  list-style: none;
+  font-size: 14px;
+  font-weight: 400;
+  box-shadow: 0 0 14px rgba(0, 0, 0, 0.05);
+  background-color: #28a745;
+  animation-name: notify;
+  animation-duration: 3s;
+  opacity: 0;
+  transition: all ease-in-out;
+  -webkit-transition: all ease;
+  -moz-transition: all ease;
+  -ms-transition: all ease;
+  -o-transition: all ease;
+}
+@keyframes notify {
+  0% {opacity: 0;}
+  50% {opacity: 1;}
+  100% {opacity: 0}
+}
+.warning_msg{
+  opacity: 1;
+  background-color:#FF9966;
+}
